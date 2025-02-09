@@ -1,0 +1,1 @@
+/Users/admin/Documents/FlutterProjectPOC/StantechAssignment/android/app/build/intermediates/cxx/Debug/2h4y3586/obj/x86_64
