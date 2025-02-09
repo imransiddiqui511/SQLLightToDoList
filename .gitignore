@@ -60,3 +60,4 @@ logs/
 *.orig
 *.tmp
 *.bak
+vendor/bundle/
