@@ -12,7 +12,9 @@ const ItemListScreen = ({ navigation }) => {
   const dispatch = useDispatch();
 
   const handleDelete = id => {
+    // deleting item from redux
     dispatch(deleteItem(id));
+    // deteting item from db.
     deleteItemById(id);
   };
 
