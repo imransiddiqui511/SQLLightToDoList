@@ -25,7 +25,7 @@ export const addItem = async (name, description) => {
 export const updateItem = async (id, name, description) => {
   try {
     await executeQuery('UPDATE items SET name = ?, description = ? WHERE id = ?;', [name, description, id]);
-    console.log('✅ Item updated successfully');
+    console.log('Item updated successfully');
   } catch (error) {
     console.error('Error updating item:', error);
   }
@@ -34,7 +34,7 @@ export const updateItem = async (id, name, description) => {
 export const deleteItemById = async (id) => {
   try {
     await executeQuery('DELETE FROM items WHERE id = ?;', [id]);
-    console.log('✅ Item deleted successfully');
+    console.log('Item deleted successfully');
   } catch (error) {
     console.error('Error deleting item:', error);
   }
