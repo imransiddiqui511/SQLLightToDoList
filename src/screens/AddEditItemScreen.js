@@ -31,12 +31,14 @@ const AddEditItemScreen = ({ route, navigation }) => {
       const updatedItem = { ...item, name, description };
       dispatch(updateItem(updatedItem));
       db.transaction(tx => {
+        // updating items table where id is match and it will update item name and description.
         tx.executeSql('UPDATE items SET name = ?, description = ? WHERE id = ?;', [name, description, item.id]);
       });
     } else {
       const newItem = { id: Date.now(), name, description };
       dispatch(addItem(newItem));
       db.transaction(tx => {
+        // this query is use for inserting new record in items table.
         tx.executeSql('INSERT INTO items (name, description) VALUES (?, ?);', [name, description]);
       });
     }
