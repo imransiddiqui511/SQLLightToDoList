@@ -36,4 +36,8 @@ This is a React Native application that allows users to search for places using 
 const GOOGLE_API_KEY = 'API_KEY';
 ```
 
+#### OUTPUT:
+
+<img src="https://github.com/user-attachments/assets/88157684-1d63-4e27-8e26-d527b1b6672e" width="300"/> <img src="https://github.com/user-attachments/assets/7718d7f8-c011-49ba-be8f-b9d60a5594f1" width="300"/> <img src="https://github.com/user-attachments/assets/a5b85ae6-7858-4828-96e1-951f0858fbc2" width="300"/>  <img src="https://github.com/user-attachments/assets/c3e1d0e3-2770-4c48-b271-1d7817eefd9d" width="300"/> <img src="https://github.com/user-attachments/assets/1da4b15c-a7a0-4d54-9c42-2e5b793e9863" width="300"/>```
+
 
